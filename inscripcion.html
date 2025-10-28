@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripciones</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrpt.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>inscripcion a Volutarios</h1>
+        <nav class="menu">
+            <a href="Index.html"Inicio></a>
+            <a href="historia.html">Historia</a>
+            <a href="inscripcion.html">Inscripcion</a>
+        </nav>
+    </header>
+    <main>
+        <section class="formulario">
+            <h2>Formulario de Inscripcion</h2>
+            <p>Ingrese sus datos </p>
+            
+            <form id="formInscripcion">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+                
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha" required>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" min="10" max="40" required>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" required>
+
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" pattern="[0-9]{7,8}" required>
+
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" pattern="[0-9]{10}" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" required>
+
+        <button type="submit">Enviar</button>
+            </form>
+        <div id="resultado"></div>
+        </section>
+    </main>
+</body>
+</html>
