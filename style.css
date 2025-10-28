@@ -4,5 +4,31 @@
     margin: 40px auto;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px aqua;
+    box-shadow: 0 2px 8px black;
+}
+.formulario h2{
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+.formulario p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+label{
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: blackground-color 0.3s;
 }
